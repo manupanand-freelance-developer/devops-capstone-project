@@ -1,3 +1,13 @@
+---
+name: Set up REST API for list all customer accounts
+about: Create  microservice
+title: 'REST API'
+labels: 'customer-accounts'
+assignees: 'manupanand'
+---
+
+
+
 **As a** customer account manager  
 **I need** a REST API to list all customer accounts  
 **So that**  I can view and manage customer details easily 
