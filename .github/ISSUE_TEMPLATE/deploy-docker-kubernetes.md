@@ -1,3 +1,11 @@
+---
+name: Deploy microservices in kubernetes
+about: Deploy microservices
+title: 'deploy-microservices'
+labels: 'deploy-customer-accounts'
+assignees: 'manupanand'
+---
+
 **As a** DevOps engineer 
 **I need** to deploy the microservice Docker image to Kubernetes.
 **So that** it can be scaled and managed in a production environment

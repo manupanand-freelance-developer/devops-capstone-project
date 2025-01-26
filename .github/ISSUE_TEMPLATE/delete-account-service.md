@@ -1,3 +1,11 @@
+---
+name: Set up REST API for delete customer accounts
+about: delete details
+title: 'REST API-delete-customer-accounts'
+labels: 'delete-customer-accounts'
+assignees: 'manupanand'
+---
+
 **As a** developer  
 **I need** a REST API to delete a customer account  
 **So that** inactive or invalid accounts can be removed  

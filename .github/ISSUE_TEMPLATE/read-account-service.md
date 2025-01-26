@@ -1,3 +1,11 @@
+---
+name: Set up REST API retrieve a customer account by ID
+about: fetch customer details
+title: 'REST API-fetch-customer-details'
+labels: 'customer-accounts-fetch-details'
+assignees: 'manupanand'
+---
+
 **As a** developer  
 **I need** a REST API to retrieve a customer account by ID 
 **So that**  I can fetch customer details when needed 

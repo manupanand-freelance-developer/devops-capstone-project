@@ -1,3 +1,11 @@
+---
+name: Set up REST API for update customer accounts
+about: Update customer accounts
+title: 'REST API-update-customer-accounts'
+labels: 'update-customer-accounts'
+assignees: 'manupanand'
+---
+
 **As a** developer 
 **I need** REST API to update customer account details  
 **So that** customer information can be modified as needed  
