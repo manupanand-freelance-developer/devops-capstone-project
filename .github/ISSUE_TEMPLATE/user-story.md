@@ -7,7 +7,7 @@
     * The endpoint should support pagination to handle large datasets.
     * The API response should include customer details like ID, name, email, and account status.
 ### Acceptance Criteria     
-    gherkin 
+    
     Given the customer account database contains customer records.
     When I call the API endpoint to list customer accounts.
     Then I should receive a paginated list of all customer accounts in JSON format.
