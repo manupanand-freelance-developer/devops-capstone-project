@@ -1,10 +1,9 @@
 ---
 name: CD Pipeline Issue
 about: Track tasks related to the CD pipeline for Kubernetes deployment
-title: "[CD Pipeline] Create a CD pipeline to automate deployment to Kubernetes"
+title: [CD Pipeline] Create a CD pipeline to automate deployment to Kubernetes
 labels: CD, Kubernetes, Automation
 assignees: manupanand
-
 ---
 
 **As a** developer
@@ -19,3 +18,4 @@ assignees: manupanand
 Given the CD pipeline has been created
 When I trigger the pipeline run
 Then I should see the accounts service deployed to OpenShift
+
