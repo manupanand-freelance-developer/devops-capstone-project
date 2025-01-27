@@ -1,7 +1,7 @@
 ---
 name: CD Pipeline Issue
 about: Track tasks related to the CD pipeline for Kubernetes deployment
-title: [CD Pipeline] Create a CD pipeline to automate deployment to Kubernetes
+title: CD Pipeline -Create a CD pipeline to automate deployment to Kubernetes
 labels: CD, Kubernetes, Automation
 assignees: manupanand
 ---
