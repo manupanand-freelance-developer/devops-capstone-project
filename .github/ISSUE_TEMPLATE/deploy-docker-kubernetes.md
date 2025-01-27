@@ -1,9 +1,9 @@
 ---
 name: Deploy microservices in kubernetes
 about: Deploy microservices
-title: 'deploy-microservices'
-labels: 'deploy-customer-accounts'
-assignees: 'manupanand'
+title:  Deploy your Docker image to Kubernetes
+labels: deploy, kubernetes, openshift
+assignees: manupanand
 ---
 
 **As a** DevOps engineer 
@@ -11,9 +11,9 @@ assignees: 'manupanand'
 **So that** it can be scaled and managed in a production environment
       
 ### Details and Assumptions
-    * A Kubernetes deployment YAML file will define the deployment.
-    * The service will expose an endpoint via a Kubernetes service.     
-
+    * Kubernetes manifests will be created in yaml format
+    * These manifests could be useful to create a CD pipeline
+    * The actual deployment will be to OpenShift
 ### Acceptance Criteria     
      
     Given a Docker image of the microservice.
