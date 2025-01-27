@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: flask_app
+    ports:
+      - "8080:8080"
+    environment:
+      DATABASE_URI: "postgresql://postgres:postgres@postgresql:5432/postgres"
+    depends_on:
+      - postgresql
+    networks:
+      - app_network
+
+  postgresql:
+    image: postgres:alpine
+    container_name: postgresql
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    volumes:
+      - postgresql_data:/var/lib/postgresql/data
+    networks:
+      - app_network
+
+volumes:
+  postgresql_data:
+
+networks:
+  app_network:
