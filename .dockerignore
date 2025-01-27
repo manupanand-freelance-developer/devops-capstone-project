@@ -1,0 +1,10 @@
+.venv
+.github
+.env
+.env.example
+.flaskenv
+.gitignore
+github.sh
+LICENSE
+README.md
+.gitattributes
